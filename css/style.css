@@ -1,150 +1,138 @@
-
 * {
-padding:0;
-margin:0;
-box-sizing:boder-box;
-
+  padding: 0;
+  margin: 0;
+  box-sizing: boder-box;
 }
 
 body {
-    font-family: Montserrat;
-font-size: 14px;
-width: 1280px;
-height: 1399px;
-padding: 40px;
-background-color: #f5f7fa;
-color: #000000;
+  font-family: Montserrat;
+  font-size: 14px;
+  /* width: 1280px; */
+  height: 1320px;
+  padding: 40px;
+  background-color: #f5f7fa;
+  color: #000000;
 }
 .main {
-
-width: 1200px;
-height: 1319px;
-background-color: #fff;
-box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  width: 1150px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 h1 {
-
-font-family: Montserrat;
-font-size: 45px;
-font-weight: 700;
-line-height: 89px;
-
+  font-family: Montserrat;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 89px;
 }
 h2 {
-
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 700;
-line-height: 24px;
-/* Text style for "Front-End" */
-letter-spacing: 0.42px;
-
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  /* Text style for "Front-End" */
+  letter-spacing: 0.42px;
 }
 h3 {
-
-font-family: Montserrat;
-font-size: 22px;
-font-weight: 700;
-line-height: 24px;
-margin: 20px 0 10px 0;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 20px 0 10px 0;
 }
 h4 {
-
-font-family: Montserrat;
-font-size: 16px;
-font-weight: 700;
-line-height: 24px;
-/* Text style for "Front-End" */
-letter-spacing: 0.48px;
-margin: 5px 0;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  /* Text style for "Front-End" */
+  letter-spacing: 0.48px;
+  margin: 5px 0;
 }
 h5 {
-
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 700;
-line-height: 24px;
-/* Text style for "Management" */
-letter-spacing: 0.42px;
-margin: 5px 0;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  /* Text style for "Management" */
+  letter-spacing: 0.42px;
+  margin: 5px 0;
 }
 
 img {
-    width: 370px;
-    height: 354px;
-margin-top: 40px;
+  width: 370px;
+  height: 354px;
+  margin-top: 40px;
 }
 aside {
-float:left;
-width: 370px;
-height: 1319px;
-background-color: #1e2939;
-margin: 0 89px 0 0;
-color:#fff !important;
+  /* float:left; */
+  width: 370px;
+  height: 100%;
+  background-color: #1e2939;
+  margin: 0 89px 0 0;
+  color: #fff !important;
 }
 .sidebar {
-    padding:20px 0 0 40px;
-
+  padding: 20px 0 0 40px;
 }
 .info {
-    position: relative;
-top: 108px;
+  position: relative;
+  top: 108px;
 }
-ul, ol {
-    display: inline-block;
-    width:535px;
-    position: relative;
-left:20px;
-margin: 5px 0;
+ul,
+ol {
+  display: inline-block;
+  width: 535px;
+  position: relative;
+  left: 20px;
+  margin: 5px 0;
 }
 li {
-margin: 5px 0;
+  margin: 5px 0;
 }
 
-
 .work {
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    /* Text style for "Freelance" */
-    color: #ff6b08;
-    letter-spacing: 0.48px;
-
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  /* Text style for "Freelance" */
+  color: #ff6b08;
+  letter-spacing: 0.48px;
 }
 
 .aboutme1 {
- display:inline-block;   
-width:413px;
+  display: inline-block;
+  width: 413px;
 }
 
 a {
-    color: #595959;
+  color: #595959;
 }
 
 aside a {
-    color: #ffffff;
-    opacity: 0.5;
+  color: #ffffff;
+  opacity: 0.5;
 }
 aside li {
-    position: relative;
-    left:0px;
-    color:#ff6b08;
+  position: relative;
+  left: 0px;
+  color: #ff6b08;
 }
 aside li span {
-    color:#fff;
+  color: #fff;
 }
 
 .date {
-/* Style for "September" */
-width: 179px;
-height: 13px;
-color: #a8a8a8;
-font-family: Montserrat;
-font-size: 12px;
-font-weight: 400;
-margin: 0px 0;
-/* Text style for "September" */
-letter-spacing: 0.36px;
-
+  /* Style for "September" */
+  width: 179px;
+  height: 13px;
+  color: #a8a8a8;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0px 0;
+  /* Text style for "September" */
+  letter-spacing: 0.36px;
 }
