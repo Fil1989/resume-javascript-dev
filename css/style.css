@@ -82,17 +82,36 @@ aside {
 }
 .lang {
   position: absolute;
-  width: 100px;
+
+  /* width: 100px; */
   right: 20px;
   top: -60px;
 }
+/* div.lang:hover,
+.lang__customs:hover,
+.lang__customs:focus,
+.lang__select--ukr:hover {
+  cursor: pointer;
+} */
 .lang__customs {
   text-decoration: none;
 }
-.lang__customs::after {
-  background-color: tomato;
-  width: 200px;
-  height: 20px;
+/* .icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  z-index: 10;
+}
+.icon-ua {
+  width: 1.5029296875em;
+} */
+.lang__select--ukr {
+  background-image: url(../images/images.png);
+  background-size: contain;
+  z-index: 10;
 }
 ul,
 ol {
@@ -106,7 +125,8 @@ li {
   margin: 5px 0;
 }
 
-.work {
+.work,
+.work a {
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 700;
