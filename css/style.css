@@ -80,6 +80,20 @@ aside {
   position: relative;
   top: 108px;
 }
+.lang {
+  position: absolute;
+  width: 100px;
+  right: 20px;
+  top: -60px;
+}
+.lang__customs {
+  text-decoration: none;
+}
+.lang__customs::after {
+  background-color: tomato;
+  width: 200px;
+  height: 20px;
+}
 ul,
 ol {
   display: inline-block;
