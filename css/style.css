@@ -7,16 +7,15 @@
 body {
   font-family: Montserrat;
   font-size: 14px;
-  /* width: 1280px; */
-  height: 1450px;
   padding: 40px;
   background-color: #f5f7fa;
   color: #000000;
+  padding-bottom: 150px;
 }
 .main {
   display: flex;
   width: 1150px;
-  height: 100%;
+  height: inherit;
   background-color: #fff;
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
@@ -66,9 +65,8 @@ img {
   margin-top: 40px;
 }
 aside {
-  /* float:left; */
   width: 370px;
-  height: 100%;
+  height: inherit;
   background-color: #1e2939;
   margin: 0 89px 0 0;
   color: #fff !important;
@@ -78,41 +76,19 @@ aside {
 }
 .info {
   position: relative;
-  top: 108px;
+  margin-top: 108px;
+  margin-bottom: 50px;
 }
 .lang {
   position: absolute;
-
-  /* width: 100px; */
   right: 60px;
   top: -60px;
 }
-/* div.lang:hover,
-.lang__customs:hover,
-.lang__customs:focus,
-.lang__select--ukr:hover {
-  cursor: pointer;
-} */
+
 .lang__customs {
   text-decoration: none;
 }
-/* .icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-  z-index: 10;
-}
-.icon-ua {
-  width: 1.5029296875em;
-} */
-.lang__select--ukr {
-  background-image: url(../images/images.png);
-  background-size: contain;
-  z-index: 10;
-}
+
 ul,
 ol {
   display: inline-block;
@@ -169,4 +145,7 @@ aside li span {
   margin: 0px 0;
   /* Text style for "September" */
   letter-spacing: 0.36px;
+}
+.behavior {
+  background-color: red;
 }
