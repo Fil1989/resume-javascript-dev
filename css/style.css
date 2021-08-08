@@ -58,7 +58,9 @@ h5 {
   letter-spacing: 0.42px;
   margin: 5px 0;
 }
-
+p {
+  text-indent: 5px;
+}
 img {
   width: 370px;
   height: 354px;
